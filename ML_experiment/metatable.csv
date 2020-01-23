@@ -1,0 +1,18 @@
+Id,Name,Extension,Type1,Type2,Path,DateCreated,DateModified,DateAccessed,HashMD5,Size,Deleted
+,argex.c,C,Media File,Audio,home/gnrpc/vikrant_ardent_scanner/testfiles/,2019-07-18 16:42:23,2019-07-18 16:40:16,2019-07-18 16:42:45,,3557,0
+,hello.c,C,Media File,Audio,home/gnrpc/vikrant_ardent_scanner/testfiles/,2019-07-17 12:05:59,2019-07-15 17:53:20,2019-07-17 12:05:59,,75,0
+,file_modify_parameter.c,C,Media File,Audio,home/gnrpc/vikrant_ardent_scanner/testfiles/,2019-07-18 15:32:40,2019-07-18 15:32:06,2019-07-18 15:32:40,,341,0
+,test1.c,C,Media File,Audio,home/gnrpc/vikrant_ardent_scanner/testfiles/,2019-07-17 12:05:59,2019-07-15 17:53:58,2019-07-17 12:05:59,,24,0
+,a.out,OUT,Unknown,Unknown,home/gnrpc/vikrant_ardent_scanner/testfiles/,2019-07-17 12:05:59,2019-07-15 17:52:17,2019-07-17 12:05:59,,8304,0
+,linuxscanner.c,C,Media File,Audio,home/gnrpc/vikrant_ardent_scanner/testfiles/build/,2019-07-17 12:05:59,2019-03-27 00:47:54,2019-07-17 12:05:59,,12243,0
+,CMakeLists.txt,TXT,Document File,Unknown,home/gnrpc/vikrant_ardent_scanner/testfiles/build/,2019-07-17 12:05:59,2019-07-15 17:50:19,2019-07-17 12:05:59,,315,0
+,main.c,C,Media File,Audio,home/gnrpc/vikrant_ardent_scanner/testfiles/build/,2019-07-17 12:05:59,2019-03-27 00:47:54,2019-07-17 12:05:59,,3052,0
+,filesdb.c,C,Media File,Audio,home/gnrpc/vikrant_ardent_scanner/testfiles/build/,2019-07-17 12:05:59,2019-03-27 00:47:54,2019-07-17 12:05:59,,8856,0
+,filesdb.h,H,Media File,Video,home/gnrpc/vikrant_ardent_scanner/testfiles/build/,2019-07-17 12:05:59,2019-03-27 00:47:54,2019-07-17 12:05:59,,2050,0
+,CMakeCache.txt,TXT,Document File,Unknown,home/gnrpc/vikrant_ardent_scanner/testfiles/build/build/,2019-07-17 12:05:59,2019-07-16 15:13:38,2019-07-17 12:05:59,,2196,0
+,cmake.check_cache,CHECK_CACHE,Unknown,Unknown,home/gnrpc/vikrant_ardent_scanner/testfiles/build/build/CMakeFiles/,2019-07-17 12:05:59,2019-07-16 15:14:31,2019-07-17 12:05:59,,85,0
+,CMakeFiles,,Archive,Audio,home/gnrpc/vikrant_ardent_scanner/testfiles/build/build/,2019-07-17 12:05:59,2019-07-16 15:13:38,2019-07-22 16:37:34,,4096,0
+,build,,Archive,Audio,home/gnrpc/vikrant_ardent_scanner/testfiles/build/,2019-07-17 12:05:59,2019-07-16 15:14:31,2019-07-22 16:37:34,,4096,0
+,linuxscanner.h,H,Media File,Video,home/gnrpc/vikrant_ardent_scanner/testfiles/build/,2019-07-17 12:05:59,2019-03-27 00:47:54,2019-07-17 12:05:59,,853,0
+,build,,Archive,Audio,home/gnrpc/vikrant_ardent_scanner/testfiles/,2019-07-17 12:05:59,2019-07-16 15:13:38,2019-07-22 16:35:24,,4096,0
+,DirectoryScanner.c,C,Media File,Audio,home/gnrpc/vikrant_ardent_scanner/testfiles/,2019-07-18 15:33:04,2019-07-17 13:38:33,2019-07-17 13:38:35,,628,0
