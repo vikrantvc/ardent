@@ -1,0 +1,109 @@
+names,weight
+First Name,10
+Full Name,10
+Middle Name,10
+Last Name,10
+Phone Number,50
+Social,95
+SSN,95
+Security,95
+Number,20
+Social Security Number,95
+Credit,95
+Cards,95
+Credit Card,95
+Credit Cards,95
+Credit Card Number,95
+Credit Card Numbers,95
+Age,20
+Sex,20
+Gender,20
+Date of Birth,50
+Personal,80
+Health,70
+Information,70
+Personal Health Information,95
+PHI,95
+Password,95
+Pass,95
+PIN Code,95
+PIN Codes,95
+PIN,95
+PINS,95
+Security Token,95
+Passport,95
+Biometric,95
+Fingerprint,95
+Financial,95
+Transaction,70
+FTI,95
+Sensitive,95
+Sensitive Data,95
+Info,80
+Log,20
+Collection,20
+Bank,95
+Account,95
+Ac,95
+Stock,80
+Share,80
+Trade,80
+Debentures,80
+Alameda,75
+Alpine,75
+Amador,75
+Butte,75
+Calaveras,75
+Colusa,75
+Contra Costa,75
+Del Norte,75
+El Dorado,75
+Fresno,75
+Glenn,75
+Humboldt,75
+Imperial,75
+Inyo,75
+Kern,75
+Kings,75
+Lake,75
+Lassen,75
+Los Angeles,75
+Madera,75
+Marin,75
+Mariposa,75
+Mendocino,75
+Merced,75
+Modoc,75
+Mono,75
+Monterey,75
+Napa,75
+Nevada,75
+Orange,75
+Placer,75
+Plumas,75
+Riverside,75
+Sacramento,75
+San Benito,75
+San Bernardino,75
+San Diego,75
+San Francisco,75
+San Joaquin,75
+San Luis Obispo,75
+San Mateo,75
+Santa Barbara,75
+Santa Clara,75
+Santa Cruz,75
+Shasta,75
+Sierra,75
+Siskiyou,75
+Solano,75
+Sonoma,75
+Stanislaus,75
+Sutter,75
+Tehama,75
+Trinity,75
+Tulare,75
+Tuolumne,75
+Ventura,75
+Yolo,75
+Yuba,75
