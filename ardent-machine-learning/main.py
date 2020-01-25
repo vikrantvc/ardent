@@ -13,14 +13,15 @@ from data_processing.elastichandler import readElastic, insertElastic
 warnings.filterwarnings('ignore')
 
 @click.command()
-@click.option('--mode', default="test", help='Mode of Program')
+@click.option('--mode', default="train", help='Mode of Program')
 def main(mode):
     if mode == "train":
         # Loading data from various sources
-        syst = pd.read_csv(os.path.join("scan_data", "system.csv"))
-        home = pd.read_csv(os.path.join("scan_data", "home.csv"))
+        path="/home/vikrant/Downloads/vikrant/Ardent/File_Scanner_copy/ardent-filescanner"
+        data = pd.read_csv(os.path.join(path, "ardent.csv"))
+        # home = pd.read_csv(os.path.join("scan_data", "home.csv"))
         # Merging the data together
-        data = pd.concat([syst, home], ignore_index=True)
+        # data = pd.concat([syst, home], ignore_index=True)
         # Data Preprocessing
         data = prep.pipeline(data)
         # Feature Extraction

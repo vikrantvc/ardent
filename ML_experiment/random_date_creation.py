@@ -4,42 +4,67 @@ from datetime import datetime
 import pandas as pd
 import os
 import time
-
-def random_date(start, end):
-    """
-    This function will return a random datetime between two datetime
-    objects.
-    """
-    delta = end - start
-    int_delta = (delta.days * 24 * 60 * 60) + delta.seconds
-    random_second = randrange(int_delta)
-    return start + timedelta(seconds=random_second)
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 def DataLoad():
-    path=os.path.join("/home/mangesh/Downloads/vikrant","metatable.csv")
+    path1="/home/vikrant/Downloads/vikrant/Ardent/Data_CSV"
+    path=os.path.join(path1,"sherwood.csv")
     df=pd.read_csv(path)
     return df
 
 
 def main():
-
-    d1 = datetime.strptime('1/1/2008 1:30 PM', '%m/%d/%Y %I:%M %p')
-    d2 = datetime.strptime('1/1/2009 4:50 AM', '%m/%d/%Y %I:%M %p')
-    # print(random_date(d1, d2))
-
-
-    # print("vvvvvv/")
     df=DataLoad()
-    # print(df)
-    min_Datemodified=df["DateModified"].min()
-    print(type(min_Datemodified))
-    print(min_Datemodified)
-    # x=datetime.strptime(min_Datemodified, "%Y-%m-%d %H:%M:%S")
-    old_date_in_seconds = datetime.strptime(min_Datemodified, "%Y-%m-%d %H:%M:%S")   
-    new_date_in_seconds =time.mktime(old_date_in_seconds.timetuple()) - 31556952    #172800
-    End_time_of_window=datetime.fromtimestamp(new_date_in_seconds).strftime("%Y-%m-%d %H:%M:%S")
-    print(End_time_of_window)
-    # print(min_Datemodified.AddYears(-1))
+    print(df.columns)
+    # df1 = df.sort_values('Risk Score',ascending = False)
+
+    # sum_df = df.groupby(['Extension']).agg({'Risk Score': 'sum'})
+
+    # sum_df = df.groupby(['Extension'])["Risk Score"].mean()
+    # print(sum_df)
+    # df.hist(column='Risk Score')
+    # sns.distplot(df["Risk Score"])
+    # df.groupby(['Risk Score']).size()
+    hist = df.hist(bins=3)
+    print(hist)
+
+    # x=df.groupby(["Extension"]).groups
+    # x=df.groupby(["Extension"])
+    #
+    # for symbol, group in x:
+    #     print(symbol)
+    #     print(group.shape)
+    # print(x)
+
+
+
+    # for i in x:
+    #     print(x.groups)
+    # print(sum_df["Risk Score"].sort_values())
+    # for i in sum_df:
+    #     print(i)
+
+
+    # df.hist()
+
+
+
+    # df=df.loc[(df['Risk Score'] >= 55) & (df['Risk Score'] <= 85)]
+    # print(df.shape)
+    # print(df['Risk Score'].mean())
+    # print(df['Size'].sum())
+    # print(df["DateCreated"].min())
+
+    # print(df["DateModified"].min())
+    # print(df["DateModified"].max())
+    # print(df["DateAccessed"].min())
+    # print(df["DateAccessed"].max())
+    # print(df["DateCreated"].min())
+    # print(df["DateCreated"].max())
+
+
+
 
 if __name__ == "__main__":
     main()
