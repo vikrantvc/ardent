@@ -21,9 +21,7 @@ df=pd.read_csv("/home/vikrant/Downloads/vikrant/Ardent/Data_CSV/sherwood.csv")
 
 
 
+#push csv into elasticsearch
 df['Id'] = range(0, df.shape[0])
-
 for i in range(df.shape[0]):
-    # print(df.iloc[i].to_json())
-    # break
     es.index(index="sherwood", body=df.iloc[i].to_json())
